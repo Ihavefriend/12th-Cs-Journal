@@ -1,0 +1,2 @@
+Two programs read this file, Q09 and Q12, is that not facinating?
+Q09 counts the occurances of a and m, while Q12 counts the occurances of AND

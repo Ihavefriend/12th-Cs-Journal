@@ -1,0 +1,6 @@
+Hello#World
+This is a test file for Python functions#
+Python#is#fun#to#learn
+Apple#Orange#Banana
+Because it wanted to fly#
+OpenAI and DeepSeek are great#

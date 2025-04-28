@@ -1,9 +1,6 @@
 """
 Write a function move() to accept a list of numbers as arguments and put all numbers divisible by 5 to the right.
 """
-from operator import index
-
-
 def move(nums):
     nlist = []
     divb5 = []

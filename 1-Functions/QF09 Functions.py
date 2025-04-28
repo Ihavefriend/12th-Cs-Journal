@@ -9,7 +9,6 @@ def sortbrand(veh):
     veh_items = list(veh.items())
     for i in range(len(veh_items)):
         for j in range(i + 1, len(veh_items)):
-            # Compare the brand (first element of the nested list)
             if veh_items[i][1][0] > veh_items[j][1][0]:
                 veh_items[i], veh_items[j] = veh_items[j], veh_items[i]
 

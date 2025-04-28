@@ -1,0 +1,7 @@
+P this line starts with P!
+this one doesnt
+p the line above this didnt start with p, it didnt get printed :(
+Hi!
+H this line starts with H
+H so does this one
+H the output to Q08 will be 4!
