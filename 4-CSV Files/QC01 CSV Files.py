@@ -20,13 +20,13 @@ def DISPLAY():
 def SEARCH():
     file = open("TOY.csv","r")
     data = csv.reader(file)
-    found = False
+    isFound = False
     target = input("Enter the toy: ")
     for i in data:
         if i[0].lower() == target:
             print(i)
-            found = True
-    if not found:
+            isFound = True
+    if not isFound:
         print("Value not found")
     file.close()
 
@@ -46,6 +46,8 @@ def HIGHEST():
     for i in data:
         if int(i[1]) > 100:
             writer.writerow(i)
+    high.close()
+    file.close()
 
 
 def MODIFY():
@@ -64,6 +66,7 @@ def MODIFY():
 def DELETE():
     file = open("TOY.csv", "r")
     data = list(csv.reader(file))
+    file.close()
     new_data = [data[0]]
     isDeleted = False
     for i in range(1, len(data)):
